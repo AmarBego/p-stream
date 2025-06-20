@@ -1,7 +1,4 @@
 {
-  "protection": {
-    "password": "{{env.PROTECTION_PASSWORD}}"
-  },
   "rewrites": [
     {
       "source": "/(.*)",
