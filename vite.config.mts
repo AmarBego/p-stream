@@ -159,6 +159,7 @@ export default defineConfig(({ mode }) => {
     resolve: {
       alias: {
         "@": path.resolve(__dirname, "./src"),
+        "@movie-web/providers": path.resolve(__dirname, "./lib"),
         "@sozialhelden/ietf-language-tags": path.resolve(
           __dirname,
           "./node_modules/@sozialhelden/ietf-language-tags/dist/cjs"
